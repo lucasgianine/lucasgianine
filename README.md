@@ -1,3 +1,5 @@
+# Hi there! 👋
+
 ```javascript
 var welcome = {
     name: "Lucas Santos",
