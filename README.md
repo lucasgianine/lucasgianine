@@ -2,7 +2,7 @@
 
 Software Engineer at [@IndigoHive](https://indigohive.com.br)
 <br>
-Analisys and Development Systems at [@BandTec](https://www.sptech.school/)
+Systems Development & Analysis at [@BandTec](https://www.sptech.school/)
 <br>
 Contacts:
 ```
