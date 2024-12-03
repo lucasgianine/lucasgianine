@@ -1,13 +1,10 @@
 # 👋
 
-<b>Software Engineer</b> at [@IndigoHive](https://indigohive.com.br)
+<b>Software Engineer</b> at [@IndigoHive](https://indigohive.com.br)<br>
+<b>Systems Development & Analysis</b> at [São Paulo Tech School (@SPTech)](https://www.sptech.school/)<br>
 <br>
-<b>Systems Development & Analysis</b> at [@BandTec](https://www.sptech.school/)
-<br>
-Contacts:
+Contact:
 ```
-✉️ lucasgianine@icloud.com
 📥 lucas.silva@indigohive.com.br
 ```
-
-![indigoHive](https://github.com/lucasgianine/lucasgianine/assets/125743142/e1a9093e-b124-4b7c-bf5b-6bbfc5255441)
+![1713272679514](https://github.com/user-attachments/assets/79fb72c6-0095-44d8-b161-1bb571fbdd45)
