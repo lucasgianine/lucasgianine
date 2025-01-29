@@ -1,6 +1,6 @@
 # 👋
 
-Degree in <b>Systems Analysis and Development</b> at [São Paulo Tech School (@SPTech)](https://www.sptech.school/)
+Associate's degree, Software Engineering (IT) at São Paulo Tech School ([@SPTech](https://www.sptech.school/))
 ```typescript
 const stacks = ['Typescript', 'NodeJS', 'React', 'NextJS', 'Python']
 const libs = ['Prisma', 'Flask', 'LangChain', 'ExpressJS', 'RabbitMQ']
