@@ -7,7 +7,7 @@ Software Engineer at <b>Tania Bulhões</b> ([https://www.taniabulhoes.com.br](ht
 <br>
 CEO, Founder at <b>Imerso</b> ([https://imerso.io/](https://imerso.framer.ai/))
 <br>
-CTO, Cofounder at <b>Suri Way</b> ([https://imerso.io/](https://surimethod.com.br/))
+CTO, Cofounder at <b>Suri Way</b> ([https://suriway.com/](https://surimethod.com.br/))
 
 # Tech
 ```typescript
