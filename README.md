@@ -13,8 +13,8 @@ let libs: string[];
 let tools: string[];
 ```
 
-## CEO, Founder at ([Imerso](https://imerso.framer.ai/))
-## Software Engineer at ([Tania Bulhões](https://www.taniabulhoes.com.br))
+## CEO, Founder at [Imerso](https://imerso.framer.ai/)
+## Software Engineer at [Tania Bulhões](https://www.taniabulhoes.com.br)
 ```typescript
 languages.push(['Typescript'])
 frameworks.push(['NodeJS', 'NextJS', 'Express', 'NestJS'])
@@ -24,7 +24,7 @@ libs.push(['React', 'React Native', 'Prisma', 'RabbitMQ', 'ShadCN'])
 tools.push(['Bitbucket', 'Github', 'Jira', 'Confluense', 'N8N'])
 ```
 
-## CTO, CoFounder at ([Suri Way](https://surimethod.com.br/))
+## CTO, CoFounder at [Suri Way](https://surimethod.com.br/)
 ```typescript
 languages.push(['Typescript'])
 frameworks.push(['NodeJS', 'NextJS 15+'])
