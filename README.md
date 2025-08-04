@@ -3,23 +3,35 @@
 <br>
 Formation in Artificial Intelligence and Leadership in Business and Technology at <b>Tera</b>
 <br><br>
-Software Engineer at <b>Tania Bulhões</b> ([https://www.taniabulhoes.com.br](https://www.taniabulhoes.com.br))
-<br>
-CEO, Founder at <b>Imerso</b> ([https://imerso.io/](https://imerso.framer.ai/))
-<br>
-CTO, Cofounder at <b>Suri Way</b> ([https://suriway.com/](https://surimethod.com.br/))
 
-# Tech
 ```typescript
-const stacks = ['Typescript', 'NodeJS', 'React', 'NextJS', 'Python']
-const libs = ['Prisma', 'Flask', 'LangChain', 'ExpressJS', 'RabbitMQ', 'NestJS']
-const cloud = ['AWS', 'Azure', 'Docker', 'Heroku', 'Vercel']
-const databases = ['PostgreSQL', 'MySQL', 'SQL Server']
-const knowledge = ['Git', 'GitHub', 'CI/CD', 'IaC', 'GenAI']
-const tools = ['LangFlow', 'n8n']
+let languages: string[];
+let frameworks: string[];
+let clouds: string[];
+let databases: string[];
+let libs: string[];
+let tools: string[];
+```
 
-const code_skills = ['Lambda function', 'News portal with React and NextJS', 'Web scraping', 'API RESTful with NodeJS and Express']
-const ai_skills = ['AI Agents', 'AI Copilot', 'n8n', 'CrewAI', 'Chatbot w/ Python and LangChain', 'Products powered by AI', 'Connect Flowise API in our API Rest', 'Prompt Engineering']
+## CEO, Founder at ([Imerso](https://imerso.framer.ai/))
+## Software Engineer at ([Tania Bulhões](https://www.taniabulhoes.com.br))
+```typescript
+languages.push(['Typescript'])
+frameworks.push(['NodeJS', 'NextJS', 'Express', 'NestJS'])
+clouds.push(['AWS', 'Vercel'])
+databases.push(['PostgreSQL']) // DBeaver and Beekepper as SGBD
+libs.push(['React', 'React Native', 'Prisma', 'RabbitMQ', 'ShadCN'])
+tools.push(['Bitbucket', 'Github', 'Jira', 'Confluense', 'N8N'])
+```
+
+## CTO, CoFounder at ([Suri Way](https://surimethod.com.br/))
+```typescript
+languages.push(['Typescript'])
+frameworks.push(['NodeJS', 'NextJS 15+'])
+clouds.push(['AWS', 'Vercel'])
+databases.push(['PostgreSQL', 'Supabase'])
+libs.push(['React', 'Prisma', 'Stripe', 'Daisy UI', 'Tailwind CSS'])
+tools.push(['Git', 'Github', 'Jira', 'LangFlow', 'N8N'])
 ```
 
 Contact:
