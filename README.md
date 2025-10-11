@@ -3,7 +3,7 @@ I help build and evolve AI-powered digital products. My work lives at the inters
 ## Tech Stack
 - 🔨 Today I work with: `.ts`, `.tsx`, `.sql`, `.yml`
 - ⚙️ Building software in pair with AI Agent (`.n8n`, `.mdc`)
-- 🧠 ai-based software constructions (LLMs, RAGs,)
+- 🧠 ai-based software constructions (LLMs, RAGs)
 ## About my work
 - Solid foundation in Frontend development with Next.js (`.tsx`) and TailwindCSS
 - Startup constructions and ideations
