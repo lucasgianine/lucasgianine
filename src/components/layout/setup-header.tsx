@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
 import { Button } from "../ui/button";
 import { useTheme } from "../theme-provider";
+import { useLocale } from "../locale-provider";
+import { LanguageToggle } from "./language-toggle";
 import { Moon, Sun } from "lucide-react";
 
 export function SetupHeader() {
+  const { locale, content } = useLocale();
   const [currentTime, setCurrentTime] = useState(() =>
-    new Date().toLocaleTimeString(navigator.language, {
+    new Date().toLocaleTimeString(locale, {
       hour: "2-digit",
       minute: "2-digit",
       second: "2-digit",
@@ -20,7 +23,7 @@ export function SetupHeader() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentTime(
-        new Date().toLocaleTimeString(navigator.language, {
+        new Date().toLocaleTimeString(locale, {
           hour: "2-digit",
           minute: "2-digit",
           second: "2-digit",
@@ -28,7 +31,7 @@ export function SetupHeader() {
       );
     }, 1000);
     return () => clearInterval(intervalId);
-  }, []);
+  }, [locale]);
 
   useEffect(() => {
     if (theme === "system") {
@@ -61,14 +64,15 @@ export function SetupHeader() {
         {currentTime}
       </span>
 
-      <div className="flex items-center justify-center gap-1">
+      <div className="flex items-center justify-center gap-2">
+        <LanguageToggle />
         <Button
           variant="outline"
           size="icon"
           className="rounded-full"
           onClick={toggleTheme}
-          aria-label="Toggle theme"
-          title="Toggle theme"
+          aria-label={content.setup.toggleTheme}
+          title={content.setup.toggleTheme}
         >
           {currentTheme === "light" ? <Moon /> : <Sun />}
         </Button>

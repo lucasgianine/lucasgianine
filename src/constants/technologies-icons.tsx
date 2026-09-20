@@ -9,7 +9,8 @@ type Technology =
   | "postgresql"
   | "mysql"
   | "tailwindcss"
-  | "sptech";
+  | "sptech"
+  | "itau";
 
 type TechnologyObject = {
   name: string;
@@ -21,61 +22,71 @@ interface TechnologyIconProps {
   name: Technology;
 }
 
+// ponytail: simpleicons CDN gives every logo the same square 24x24 viewBox,
+// which is what keeps them on the text baseline. Only brands it doesn't carry
+// (sptech, itau) get a local file.
+const simpleIcon = (slug: string) => `https://cdn.simpleicons.org/${slug}`;
+
 const TECHNOLOGIES: Record<Technology, TechnologyObject> = {
   react: {
     name: "React",
     url: "https://react.dev",
-    src: "/technologies-icons/reactjs-icon.svg",
+    src: simpleIcon("react"),
   },
   nextjs: {
     name: "Next.js",
     url: "https://nextjs.org",
-    src: "/technologies-icons/nextjs-icon.svg",
+    src: simpleIcon("nextdotjs/000000/ffffff"),
   },
   typescript: {
     name: "TypeScript",
     url: "https://www.typescriptlang.org",
-    src: "/technologies-icons/typescript-icon.svg",
+    src: simpleIcon("typescript"),
   },
   nodejs: {
     name: "Node.js",
     url: "https://nodejs.org",
-    src: "/technologies-icons/nodejs-icon.svg",
+    src: simpleIcon("nodedotjs"),
   },
   docker: {
     name: "Docker",
     url: "https://www.docker.com",
-    src: "/technologies-icons/docker-icon.svg",
+    src: simpleIcon("docker"),
   },
   n8n: {
     name: "n8n",
     url: "https://n8n.io",
-    src: "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/n8n-color.png",
+    src: simpleIcon("n8n"),
   },
   supabase: {
     name: "Supabase",
     url: "https://supabase.com",
-    src: "https://img.icons8.com/color/512/supabase.png",
+    src: simpleIcon("supabase"),
   },
   postgresql: {
     name: "PostgreSQL",
     url: "https://www.postgresql.org",
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1163px-Postgresql_elephant.svg.png",
+    src: simpleIcon("postgresql"),
   },
   mysql: {
     name: "MySQL",
     url: "https://www.mysql.com",
-    src: "https://cdn.freebiesupply.com/logos/large/2x/mysql-6-logo-png-transparent.png",
+    src: simpleIcon("mysql"),
   },
   tailwindcss: {
     name: "Tailwind CSS",
     url: "https://tailwindcss.com",
-    src: "/technologies-icons/tailwindcss-icon.svg",
+    src: simpleIcon("tailwindcss"),
   },
   sptech: {
     name: "Sptech School",
     url: "https://sptech.school",
     src: "/technologies-icons/sptech-icon.png",
+  },
+  itau: {
+    name: "Itaú Unibanco",
+    url: "https://www.itau.com.br",
+    src: "/technologies-icons/itau-icon.svg",
   },
 };
 
@@ -90,7 +101,8 @@ export function TechnologyIcon({ name }: TechnologyIconProps) {
     <img
       src={technology.src}
       alt={`${technology.name} logo`}
-      className="w-3 h-3 mt-0.5 rounded-xs inline-block"
+      loading="lazy"
+      className="inline-block h-[1.05em] w-[1.05em] shrink-0 object-contain align-[-0.18em]"
     />
   );
 }
